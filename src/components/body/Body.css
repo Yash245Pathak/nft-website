@@ -1,0 +1,30 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 7.5rem;
+}
+.content-head{
+    text-transform: uppercase;
+    font-size: xxx-large;
+    color: white;
+    font-weight: bold;
+    width: 28rem;
+    line-height: 4rem;
+}
+.sub{
+    color: white;
+    font-size: larger;
+    width: 20rem;
+    line-height: 1.5rem;
+}
+.btn1{
+    height: 32px;
+    margin: 1rem 2rem;
+    background-color: #FF3EEC;
+    font-weight: bold;
+}
+.btn1:hover{
+    transform: scale(1.2);
+    background: #141118;
+    color: #FF3EEC;
+}

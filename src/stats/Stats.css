@@ -1,0 +1,13 @@
+.stats{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin: 4rem auto;
+}
+.stats-text{
+    color: white;
+}
+.stats-text>h1{
+    font-size: xxx-large;
+    text-align: center;
+}

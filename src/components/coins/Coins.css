@@ -1,0 +1,39 @@
+.coins-main{
+    display: flex;
+    width: 80%;
+    margin: 4rem auto;
+}
+.coins{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.coins>img{
+    width: 65px;
+    border-radius: 50%;
+}
+.coins>img:hover{
+    transform: scale(1.2);
+}
+.coins>span{
+    color: white;
+    font-weight: 300;
+    font-size: x-large;
+}
+.coins-text{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.coins-text>h1{
+    margin-left: 9rem;
+    font-size: xxx-large;
+}
+.coins-text>p{
+    margin-left: 9rem;
+    margin-top: 0.5rem;
+    width: 30rem;
+    font-weight: 100;
+    font-size: large;
+}

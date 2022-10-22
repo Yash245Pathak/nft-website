@@ -1,0 +1,86 @@
+.footer{
+    background: #141118;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    color: white;
+    font-weight: 300;
+    font-size: large;
+    height: auto;
+    display: flex;
+    gap: 17em;
+}
+.footer-container{
+    width: 22rem;
+    height: auto;
+    margin: 2rem;
+    margin-left: 4rem;
+}
+.footer-container>span{
+    font-size: small;
+}
+.enter{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-left: -2px;
+
+}
+.enter>input{
+    background: transparent;
+    border: 1px solid darkcyan;
+    border-radius: 4px;
+    width: 12rem;
+    height: 2rem;
+    padding: 1px;
+}
+.btn3{
+    color: white;
+    border: 1px solid darkcyan;
+    width: 6rem;
+    cursor: pointer;
+    height: 2.2rem;
+    /* padding: 10px; */
+    font-size: small;
+    border-radius: 8px;
+    background: #141118;
+}
+.footer-text{
+    display: flex;
+    margin: 2rem;
+    gap: 2em;
+}
+.features>ul{
+    list-style: none;
+    font-size: medium;
+}
+.products>ul{
+    list-style: none;
+    font-size: medium;
+}
+.resources>ul{
+    list-style: none;
+    font-size: medium;
+}
+.features>ul>li{
+    color: darkcyan;
+    cursor: pointer;
+}
+.products>ul>li{
+    color: darkcyan;
+    cursor: pointer;
+}
+.resources>ul>li{
+    color: darkcyan;
+    cursor: pointer;
+}
+
+.features>ul>li:hover{
+    color: white;
+}
+.products>ul>li:hover{
+    color: white;
+}
+.resources>ul>li:hover{
+    color: white;
+}

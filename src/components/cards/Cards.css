@@ -1,0 +1,93 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 3rem 7.5rem;
+    gap: 2rem;
+    justify-content: space-between;
+}
+.card{
+    width: 15rem;
+    height: 16rem;
+    padding: 20px;
+    border-radius: 5px;
+    /* border: 2px solid #EA5BDB; */
+    background: linear-gradient(to bottom, #1B1B1B, #EA5BDB);
+}
+.card:hover{
+    /* background: linear-gradient(to bottom, #1B1B1B, #EA5BDB); */
+    transform: scale(110%);
+}
+.card-image>img{
+    align-items: center;
+    /* margin: auto; */
+    width: 12rem;
+    height: 12rem;
+    border-radius: 10px;
+    background: transparent;
+}
+.card-main{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: 5px 10px;
+    background: transparent;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: smaller;
+    flex: 1;
+}
+.left>div{
+    display: flex;
+}
+.left>div>span{
+    margin: -2px;
+}
+.left>div>img{
+    width: 1rem;
+    margin: auto;
+}
+.right{
+    /* flex: .2; */
+    margin-right: 18px;
+    margin-left: -8px;
+    font-weight: bold;
+    font-size: smaller;
+}
+.card:nth-child(1){
+    margin-top: 3rem;
+}
+.card:nth-child(2){
+    margin-top: -2rem;
+}
+.card:nth-child(3){
+    margin-top: -7rem;
+}
+.text{
+    display: flex;
+    /* gap: 5rem; */
+    color: white;
+    /* margin: 3rem 7.5rem; */
+    justify-content: space-between;
+    margin-left: 36rem;
+    margin-top: -6rem;
+    font-size: larger;
+}
+.text-card{
+    display: flex;
+    width: 20rem;
+    flex-direction: column;
+}
+/* .text-card:nth-child(3){
+
+} */
+.text-card>h2{
+    color: #EA5BDB;
+    font-weight: bold;
+}
+.text-card>span{
+    font-size: medium;
+    font-weight: 200;
+}
